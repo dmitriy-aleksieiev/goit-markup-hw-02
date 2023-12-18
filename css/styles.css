@@ -71,3 +71,17 @@ img {
 }
 
 /* 💛💛💛 PART III TYPOGRAPHY 💛💛💛  */
+
+.logo {
+  color: var(--dark-main-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo--color-part {
+  color: var(--accent-main-color);
+}
