@@ -1,0 +1,73 @@
+/* 🖤🖤🖤 PART I ROOT 🖤🖤🖤  */
+
+:root {
+  /* fonts */
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  /* colors */
+
+  --accent-main-color: #4d5ae5;
+  --accent-second-color: #404bbf;
+  --auxiliary-one-color: #31d0aa;
+  /* --pilot */
+  --servo-first-color: #f4f4fd;
+  --servo-second-color: #8e8f99;
+  --servo-third-color: #e7e9fc;
+  --dark-main-color: #2e2f42;
+  --dark-second-color: #434455;
+  --light-main-color: #ffffff;
+  --light-second-color: #f4f4fd;
+
+  /* others */
+  /* --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+/* 💜💜💜 PART II GLOBAL & HIDDEN 💜💜💜  */
+
+body {
+  font-family: var(--main-font);
+  color: var(--dark-main-color);
+  /* Налаштувати інші глобальні стилі 
+  line-height:
+  background-color:
+  */
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* 💛💛💛 PART III TYPOGRAPHY 💛💛💛  */
