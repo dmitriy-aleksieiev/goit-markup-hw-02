@@ -85,3 +85,102 @@ img {
 .logo--color-part {
   color: var(--accent-main-color);
 }
+
+.logo--light-part {
+  color: var(--servo-first-color);
+}
+
+.header__link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--dark-main-color);
+}
+
+.header__link:hover,
+.header__link:focus {
+  color: var(--accent-second-color);
+}
+
+.header__address {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--dark-main-color);
+}
+
+.header__address:hover,
+.header__address:focus {
+  color: var(--accent-second-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+
+  color: var(--light-main-color);
+}
+
+.h2-title {
+  font-size: 36px;
+
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.h3-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.body-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--dark-second-color);
+}
+
+.body-text--light {
+  color: var(--servo-first-color);
+}
+
+/* 💙💙💙 PART IV BUTTONS 💙💙💙  */
+
+.button {
+  border-radius: 4px;
+  background: var(--accent-main-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--light-main-color);
+}
+
+.button:hover,
+.button:focus {
+  background: var(--accent-second-color);
+}
+
+/* 💚💚💚 PART V SECTION 💚💚💚  */
+
+.hero,
+.footer {
+  background-color: var(--dark-main-color);
+}
+
+.team {
+  background-color: var(--servo-first-color);
+}
