@@ -173,7 +173,8 @@ img {
 /* 💙💙💙 PART IV BUTTONS 💙💙💙  */
 
 .button {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: inherit;
   /* border-radius: 4px; */
   background: var(--accent-main-color);
   /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
