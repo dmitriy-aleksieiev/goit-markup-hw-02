@@ -81,11 +81,13 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
 
-.logo--color-part {
   color: var(--accent-main-color);
 }
+
+/* .logo--color-part {
+  color: var(--accent-main-color);
+} */
 
 .logo--dark-part {
   color: var(--dark-main-color);
