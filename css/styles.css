@@ -26,7 +26,8 @@
 
 body {
   font-family: var(--main-font);
-  color: var(--dark-main-color);
+  color: var(--dark-second-color);
+  background-color: var(--light-main-color);
   /* Налаштувати інші глобальні стилі 
   line-height:
   background-color:
@@ -86,6 +87,10 @@ img {
   color: var(--accent-main-color);
 }
 
+.logo--dark-part {
+  color: var(--dark-main-color);
+}
+
 .logo--light-part {
   color: var(--servo-first-color);
 }
@@ -96,7 +101,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  color: var(--dark-main-color);
+  color: var(--dark-second-color);
 }
 
 .header__link:hover,
@@ -124,6 +129,8 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--light-main-color);
+
+  text-align: center;
 }
 
 .h2-title {
@@ -133,6 +140,10 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
+  color: var(--dark-main-color);
+
+  text-align: center;
 }
 
 .h3-title {
@@ -140,14 +151,16 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
+  color: var(--dark-main-color);
+
+  text-align: center;
 }
 
 .body-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  color: var(--dark-second-color);
 }
 
 .body-text--light {
@@ -167,6 +180,8 @@ img {
   letter-spacing: 0.04em;
 
   color: var(--light-main-color);
+
+  cursor: pointer;
 }
 
 .button:hover,
@@ -183,4 +198,10 @@ img {
 
 .team {
   background-color: var(--servo-first-color);
+}
+
+/* 💚💚💚 PART VI OTHER 💚💚💚  */
+
+.team__item {
+  background-color: var(--light-main-color);
 }
