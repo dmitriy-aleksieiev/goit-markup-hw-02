@@ -1,33 +1,11 @@
 /* 🖤🖤🖤 PART I ROOT 🖤🖤🖤  */
 
-:root {
-  /* fonts */
-  --main-font: "Roboto", sans-serif;
-  --logo-font: "Raleway", sans-serif;
-  /* colors */
-
-  --accent-main-color: #4d5ae5;
-  --accent-second-color: #404bbf;
-  --auxiliary-one-color: #31d0aa;
-  /* --pilot */
-  --servo-first-color: #f4f4fd;
-  --servo-second-color: #8e8f99;
-  --servo-third-color: #e7e9fc;
-  --dark-main-color: #2e2f42;
-  --dark-second-color: #434455;
-  --light-main-color: #ffffff;
-  --light-second-color: #f4f4fd;
-
-  /* others */
-  /* --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-}
-
 /* 💜💜💜 PART II GLOBAL & HIDDEN 💜💜💜  */
 
 body {
-  font-family: var(--main-font);
-  color: var(--dark-second-color);
-  background-color: var(--light-main-color);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
   /* Налаштувати інші глобальні стилі 
   line-height:
   background-color:
@@ -74,7 +52,7 @@ p {
 /* 💛💛💛 PART III TYPOGRAPHY 💛💛💛  */
 
 .logo {
-  color: var(--dark-main-color);
+  color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -90,11 +68,11 @@ p {
 } */
 
 .logo--dark-part {
-  color: var(--dark-main-color);
+  color: #2e2f42;
 }
 
 .logo--light-part {
-  color: var(--servo-first-color);
+  color: #f4f4fd;
 }
 
 .header__link {
@@ -108,7 +86,7 @@ p {
 
 .header__link:hover,
 .header__link:focus {
-  color: var(--accent-second-color);
+  color: #404bbf;
 }
 
 .header__address {
@@ -117,12 +95,12 @@ p {
   letter-spacing: 0.02em;
   font-style: normal;
 
-  color: var(--dark-second-color);
+  color: #434455;
 }
 
 .header__address:hover,
 .header__address:focus {
-  color: var(--accent-second-color);
+  color: #404bbf;
 }
 
 .hero-title {
@@ -131,7 +109,7 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
 
-  color: var(--light-main-color);
+  color: #ffffff;
 
   text-align: center;
 }
@@ -144,7 +122,7 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  color: var(--dark-main-color);
+  color: #2e2f42;
 
   text-align: center;
 }
@@ -155,7 +133,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  color: var(--dark-main-color);
+  color: #2e2f42;
 
   text-align: center;
 }
@@ -167,7 +145,7 @@ p {
 }
 
 .body-text--light {
-  color: var(--servo-first-color);
+  color: #f4f4fd;
 }
 
 /* 💙💙💙 PART IV BUTTONS 💙💙💙  */
@@ -184,29 +162,29 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
 
-  color: var(--light-main-color);
+  color: #ffffff;
 
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  background: var(--accent-second-color);
+  background: #404bbf;
 }
 
 /* 💚💚💚 PART V SECTION 💚💚💚  */
 
 .hero,
 .footer {
-  background-color: var(--dark-main-color);
+  background-color: #2e2f42;
 }
 
 .team {
-  background-color: var(--servo-first-color);
+  background-color: #f4f4fd;
 }
 
 /* 💚💚💚 PART VI OTHER 💚💚💚  */
 
 .team__item {
-  background-color: var(--light-main-color);
+  background-color: #ffffff;
 }

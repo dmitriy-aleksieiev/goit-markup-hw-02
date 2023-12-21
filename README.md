@@ -29,3 +29,43 @@ border-radius: 3px;
 /_ Прочее _/
 opacity: 1;
 }
+
+:root {
+/_ fonts _/
+--main-font: "Roboto", sans-serif;
+--logo-font: "Raleway", sans-serif;
+/_ colors _/
+
+--accent-main-color: #4d5ae5;
+--accent-second-color: #404bbf;
+--auxiliary-one-color: #31d0aa;
+/_ --pilot _/
+--servo-first-color: #f4f4fd;
+--servo-second-color: #8e8f99;
+--servo-third-color: #e7e9fc;
+--dark-main-color: #2e2f42;
+--dark-second-color: #434455;
+--light-main-color: #ffffff;
+--light-second-color: #f4f4fd;
+
+/_ :root {
+/_ fonts _/
+--main-font: "Roboto", sans-serif;
+--logo-font: "Raleway", sans-serif;
+/_ colors \*/
+
+--accent-main-color: #4d5ae5;
+--accent-second-color: #404bbf;
+--auxiliary-one-color: #31d0aa;
+/_ --pilot _/
+--servo-first-color: #f4f4fd;
+--servo-second-color: #8e8f99;
+--servo-third-color: #e7e9fc;
+--dark-main-color: #2e2f42;
+--dark-second-color: #434455;
+--light-main-color: #ffffff;
+--light-second-color: #f4f4fd; \*/
+
+/_ others _/
+/_ --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1); _/
+}
