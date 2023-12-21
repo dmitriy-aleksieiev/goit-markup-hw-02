@@ -8,17 +8,17 @@ body {
   background-color: #ffffff;
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
-ul {
+/* ul {
   padding: 0;
   margin: 0;
   list-style: none;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -26,11 +26,11 @@ h5,
 h6,
 p {
   margin: 0;
-}
+} */
 
-img {
+/* img {
   display: block;
-}
+} */
 
 .visually-hidden {
   position: absolute;
