@@ -1,6 +1,6 @@
-/* 🖤🖤🖤 PART I ROOT 🖤🖤🖤  */
+/* PART I ROOT */
 
-/* 💜💜💜 PART II GLOBAL & HIDDEN 💜💜💜  */
+/* PART II GLOBAL & HIDDEN */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -45,7 +45,7 @@ p {
   margin: -1px;
 } */
 
-/* 💛💛💛 PART III TYPOGRAPHY 💛💛💛  */
+/*  PART III TYPOGRAPHY   */
 
 .logo {
   color: #2e2f42;
@@ -144,7 +144,7 @@ p {
   color: #f4f4fd;
 }
 
-/* 💙💙💙 PART IV BUTTONS 💙💙💙  */
+/*  PART IV BUTTONS   */
 
 .button {
   /* font-family: "Roboto", sans-serif; */
@@ -168,7 +168,7 @@ p {
   background: #404bbf;
 }
 
-/* 💚💚💚 PART V SECTION 💚💚💚  */
+/*  PART V SECTION   */
 
 .hero,
 .footer {
@@ -179,7 +179,7 @@ p {
   background-color: #f4f4fd;
 }
 
-/* 💚💚💚 PART VI OTHER 💚💚💚  */
+/*  PART VI OTHER   */
 
 .team__item {
   background-color: #ffffff;
