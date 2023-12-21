@@ -116,7 +116,7 @@ p {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 
   color: #2e2f42;
 
